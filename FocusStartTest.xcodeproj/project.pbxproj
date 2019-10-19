@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5821426A2359F53400BE2F16 /* CarDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582142692359F53400BE2F16 /* CarDetailViewController.swift */; };
 		586436ED2359F08E002A24AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586436EC2359F08E002A24AD /* AppDelegate.swift */; };
 		586436EF2359F08E002A24AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586436EE2359F08E002A24AD /* SceneDelegate.swift */; };
-		586436F12359F08E002A24AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586436F02359F08E002A24AD /* ViewController.swift */; };
 		586436F42359F08E002A24AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 586436F22359F08E002A24AD /* Main.storyboard */; };
 		586436F62359F090002A24AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 586436F52359F090002A24AD /* Assets.xcassets */; };
 		586436F92359F090002A24AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 586436F72359F090002A24AD /* LaunchScreen.storyboard */; };
+		586437012359F0BD002A24AD /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586437002359F0BD002A24AD /* Car.swift */; };
+		586437032359F12F002A24AD /* Cars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586437022359F12F002A24AD /* Cars.swift */; };
+		5864370A2359F1C5002A24AD /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586437082359F1C5002A24AD /* UITextField+Extension.swift */; };
+		5864370B2359F1C5002A24AD /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586437092359F1C5002A24AD /* UIViewController+Extension.swift */; };
+		5864370C2359F1C5002A24AD /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586437072359F1C5002A24AD /* Array+Extension.swift */; };
+		5864370F2359F1FD002A24AD /* CarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5864370E2359F1FD002A24AD /* CarCell.swift */; };
+		586437122359F387002A24AD /* CarsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586437112359F387002A24AD /* CarsListViewController.swift */; };
+		58B79BBE2359F99500A28DB1 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B79BBC2359F99500A28DB1 /* DataManager.swift */; };
+		58B79BBF2359F99500A28DB1 /* TableViewCellConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B79BBD2359F99500A28DB1 /* TableViewCellConfigurator.swift */; };
+		58B79BC2235A216D00A28DB1 /* PopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B79BC1235A216D00A28DB1 /* PopoverViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		582142692359F53400BE2F16 /* CarDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarDetailViewController.swift; sourceTree = "<group>"; };
 		586436E92359F08E002A24AD /* FocusStartTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusStartTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		586436EC2359F08E002A24AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		586436EE2359F08E002A24AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		586436F02359F08E002A24AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		586436F32359F08E002A24AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		586436F52359F090002A24AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		586436F82359F090002A24AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		586436FA2359F090002A24AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		586437002359F0BD002A24AD /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		586437022359F12F002A24AD /* Cars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cars.swift; sourceTree = "<group>"; };
+		586437072359F1C5002A24AD /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		586437082359F1C5002A24AD /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		586437092359F1C5002A24AD /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		5864370E2359F1FD002A24AD /* CarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCell.swift; sourceTree = "<group>"; };
+		586437112359F387002A24AD /* CarsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarsListViewController.swift; sourceTree = "<group>"; };
+		58B79BBC2359F99500A28DB1 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		58B79BBD2359F99500A28DB1 /* TableViewCellConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellConfigurator.swift; sourceTree = "<group>"; };
+		58B79BC1235A216D00A28DB1 /* PopoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +57,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5821426B2359F8A300BE2F16 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				586437112359F387002A24AD /* CarsListViewController.swift */,
+				582142692359F53400BE2F16 /* CarDetailViewController.swift */,
+				58B79BC1235A216D00A28DB1 /* PopoverViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 		586436E02359F08E002A24AD = {
 			isa = PBXGroup;
 			children = (
@@ -58,13 +88,53 @@
 			children = (
 				586436EC2359F08E002A24AD /* AppDelegate.swift */,
 				586436EE2359F08E002A24AD /* SceneDelegate.swift */,
-				586436F02359F08E002A24AD /* ViewController.swift */,
+				58B79BC02359F99A00A28DB1 /* Other controllers */,
+				586437102359F201002A24AD /* View */,
+				5864370D2359F1CE002A24AD /* Extensions */,
+				586437042359F19D002A24AD /* Models */,
+				5821426B2359F8A300BE2F16 /* View Controllers */,
 				586436F22359F08E002A24AD /* Main.storyboard */,
 				586436F52359F090002A24AD /* Assets.xcassets */,
 				586436F72359F090002A24AD /* LaunchScreen.storyboard */,
 				586436FA2359F090002A24AD /* Info.plist */,
 			);
 			path = FocusStartTest;
+			sourceTree = "<group>";
+		};
+		586437042359F19D002A24AD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				586437002359F0BD002A24AD /* Car.swift */,
+				586437022359F12F002A24AD /* Cars.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5864370D2359F1CE002A24AD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				586437072359F1C5002A24AD /* Array+Extension.swift */,
+				586437082359F1C5002A24AD /* UITextField+Extension.swift */,
+				586437092359F1C5002A24AD /* UIViewController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		586437102359F201002A24AD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5864370E2359F1FD002A24AD /* CarCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		58B79BC02359F99A00A28DB1 /* Other controllers */ = {
+			isa = PBXGroup;
+			children = (
+				58B79BBC2359F99500A28DB1 /* DataManager.swift */,
+				58B79BBD2359F99500A28DB1 /* TableViewCellConfigurator.swift */,
+			);
+			path = "Other controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +208,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				586436F12359F08E002A24AD /* ViewController.swift in Sources */,
+				58B79BBF2359F99500A28DB1 /* TableViewCellConfigurator.swift in Sources */,
+				58B79BC2235A216D00A28DB1 /* PopoverViewController.swift in Sources */,
+				58B79BBE2359F99500A28DB1 /* DataManager.swift in Sources */,
+				5821426A2359F53400BE2F16 /* CarDetailViewController.swift in Sources */,
+				586437122359F387002A24AD /* CarsListViewController.swift in Sources */,
 				586436ED2359F08E002A24AD /* AppDelegate.swift in Sources */,
+				586437032359F12F002A24AD /* Cars.swift in Sources */,
+				5864370F2359F1FD002A24AD /* CarCell.swift in Sources */,
+				5864370A2359F1C5002A24AD /* UITextField+Extension.swift in Sources */,
+				5864370B2359F1C5002A24AD /* UIViewController+Extension.swift in Sources */,
+				586437012359F0BD002A24AD /* Car.swift in Sources */,
 				586436EF2359F08E002A24AD /* SceneDelegate.swift in Sources */,
+				5864370C2359F1C5002A24AD /* Array+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +374,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ArkadiyGrigoryanc.FocusStartTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +392,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ArkadiyGrigoryanc.FocusStartTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
